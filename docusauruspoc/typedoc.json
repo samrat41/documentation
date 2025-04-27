@@ -1,0 +1,9 @@
+{
+  "entryPoints": ["./src/components"],
+  "outputs": [{"name": "json", "path":"./docs/typedoc.json"}],
+  //"plugin": ["typedoc-plugin-markdown"],
+  "tsconfig": "./tsconfig.json", // Explicitly reference the tsconfig file
+  "exclude": ["**/*.spec.ts", "**/*.test.ts"], // Exclude test files
+  "readme": "none", // Disable README generation if not needed
+  "entryPointStrategy": "expand" // Automatically include all files in the entry point directory
+}

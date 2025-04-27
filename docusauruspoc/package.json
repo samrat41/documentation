@@ -1,0 +1,35 @@
+{
+  "name": "docusauruspoc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"No tests specified\" && exit 0",
+    "generate-docs": "typedoc"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-docgen-typescript": "^2.2.2",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.26.3",
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
+    "fs-extra": "^11.3.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.6",
+    "typedoc": "^0.28.3",
+    "typedoc-plugin-markdown": "^4.6.3",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
