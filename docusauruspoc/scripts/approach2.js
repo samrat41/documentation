@@ -133,7 +133,7 @@ function extractProps(typeNode, level = 0) {
     table += `| ${propName} | ${typeText} | ${defaultValue || '-'} | ${required} | ${description} |\n`;
 
     // Handle nested custom objects recursively
-    if (isCustomObject(prop.type)) {
+    if (isCustomObject(prop.type) && !isEnumerationType(prop.type)) {
       const nestedTypeName = prop.type.type === 'array' ? prop.type.elementType.name : prop.type.name;
       const nestedType = findTypeByName(nestedTypeName);
       if (nestedType) {
@@ -169,6 +169,13 @@ function renderNestedTable(typeNode) {
   }
 
   return nestedTable;
+}
+
+function isEnumerationType(type) {
+  if (!type || type.type !== 'reference') return false;
+
+  const enumerations = findEnumerationsFromChildren(typedocJson.children);
+  return enumerations.some(enumObj => enumObj.name === type.name);
 }
 function findEnumerationsFromChildren(children) {
   const enumerations = [];
@@ -257,8 +264,8 @@ ${propsTable}
 
 // ✨ List your components here
 const componentsToGenerate = [
-  'Table',
-  'Button'  // Add more component names if needed
+  'AnotherTable',
+  'AnotherButton'  // Add more component names if needed
 ];
 
 // Run generation

@@ -8,83 +8,29 @@
 	"children": [
 		{
 			"id": 1,
-			"name": "App",
+			"name": "AnotherButton",
 			"variant": "declaration",
 			"kind": 2,
 			"flags": {},
 			"children": [
 				{
-					"id": 40,
-					"name": "default",
-					"variant": "declaration",
-					"kind": 32,
-					"flags": {
-						"isConst": true
-					},
-					"sources": [
-						{
-							"fileName": "App.tsx",
-							"line": 4,
-							"character": 6,
-							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/App.tsx#L4"
-						}
-					],
-					"type": {
-						"type": "reference",
-						"target": {
-							"packageName": "@types/react",
-							"packagePath": "index.d.ts",
-							"qualifiedName": "React.FC"
-						},
-						"name": "React.FC",
-						"package": "@types/react"
-					},
-					"defaultValue": "..."
-				}
-			],
-			"groups": [
-				{
-					"title": "Variables",
-					"children": [
-						40
-					]
-				}
-			],
-			"sources": [
-				{
-					"fileName": "App.tsx",
-					"line": 1,
-					"character": 0,
-					"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/App.tsx#L1"
-				}
-			]
-		},
-		{
-			"id": 2,
-			"name": "Button",
-			"variant": "declaration",
-			"kind": 2,
-			"flags": {},
-			"children": [
-				{
-					"id": 3,
+					"id": 2,
 					"name": "ButtonType",
 					"variant": "declaration",
 					"kind": 8,
 					"flags": {},
 					"children": [
 						{
-							"id": 6,
+							"id": 5,
 							"name": "Danger",
 							"variant": "declaration",
 							"kind": 16,
 							"flags": {},
 							"sources": [
 								{
-									"fileName": "Button.tsx",
+									"fileName": "AnotherButton.tsx",
 									"line": 6,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L6"
+									"character": 4
 								}
 							],
 							"type": {
@@ -93,17 +39,16 @@
 							}
 						},
 						{
-							"id": 4,
+							"id": 3,
 							"name": "Primary",
 							"variant": "declaration",
 							"kind": 16,
 							"flags": {},
 							"sources": [
 								{
-									"fileName": "Button.tsx",
+									"fileName": "AnotherButton.tsx",
 									"line": 4,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L4"
+									"character": 4
 								}
 							],
 							"type": {
@@ -112,17 +57,16 @@
 							}
 						},
 						{
-							"id": 5,
+							"id": 4,
 							"name": "Secondary",
 							"variant": "declaration",
 							"kind": 16,
 							"flags": {},
 							"sources": [
 								{
-									"fileName": "Button.tsx",
+									"fileName": "AnotherButton.tsx",
 									"line": 5,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L5"
+									"character": 4
 								}
 							],
 							"type": {
@@ -131,17 +75,16 @@
 							}
 						},
 						{
-							"id": 7,
+							"id": 6,
 							"name": "Success",
 							"variant": "declaration",
 							"kind": 16,
 							"flags": {},
 							"sources": [
 								{
-									"fileName": "Button.tsx",
+									"fileName": "AnotherButton.tsx",
 									"line": 7,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L7"
+									"character": 4
 								}
 							],
 							"type": {
@@ -154,31 +97,30 @@
 						{
 							"title": "Enumeration Members",
 							"children": [
-								6,
-								4,
 								5,
-								7
+								3,
+								4,
+								6
 							]
 						}
 					],
 					"sources": [
 						{
-							"fileName": "Button.tsx",
+							"fileName": "AnotherButton.tsx",
 							"line": 3,
-							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L3"
+							"character": 12
 						}
 					]
 				},
 				{
-					"id": 20,
-					"name": "ButtonProps",
+					"id": 19,
+					"name": "AnotherButtonProps",
 					"variant": "declaration",
 					"kind": 2097152,
 					"flags": {},
 					"children": [
 						{
-							"id": 22,
+							"id": 21,
 							"name": "label",
 							"variant": "declaration",
 							"kind": 1024,
@@ -204,10 +146,9 @@
 							},
 							"sources": [
 								{
-									"fileName": "Button.tsx",
+									"fileName": "AnotherButton.tsx",
 									"line": 32,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L32"
+									"character": 4
 								}
 							],
 							"type": {
@@ -216,7 +157,7 @@
 							}
 						},
 						{
-							"id": 27,
+							"id": 26,
 							"name": "nestedProp",
 							"variant": "declaration",
 							"kind": 1024,
@@ -233,21 +174,20 @@
 							},
 							"sources": [
 								{
-									"fileName": "Button.tsx",
+									"fileName": "AnotherButton.tsx",
 									"line": 46,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L46"
+									"character": 4
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 17,
-								"name": "NestedProp",
+								"target": 16,
+								"name": "AnotherNestedProp",
 								"package": "docusauruspoc"
 							}
 						},
 						{
-							"id": 24,
+							"id": 23,
 							"name": "onClick",
 							"variant": "declaration",
 							"kind": 1024,
@@ -275,31 +215,29 @@
 							},
 							"sources": [
 								{
-									"fileName": "Button.tsx",
+									"fileName": "AnotherButton.tsx",
 									"line": 42,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L42"
+									"character": 4
 								}
 							],
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 25,
+									"id": 24,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
 									"flags": {},
 									"sources": [
 										{
-											"fileName": "Button.tsx",
+											"fileName": "AnotherButton.tsx",
 											"line": 42,
-											"character": 14,
-											"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L42"
+											"character": 14
 										}
 									],
 									"signatures": [
 										{
-											"id": 26,
+											"id": 25,
 											"name": "__type",
 											"variant": "signature",
 											"kind": 4096,
@@ -314,7 +252,7 @@
 							}
 						},
 						{
-							"id": 23,
+							"id": 22,
 							"name": "type",
 							"variant": "declaration",
 							"kind": 1024,
@@ -340,15 +278,14 @@
 							},
 							"sources": [
 								{
-									"fileName": "Button.tsx",
+									"fileName": "AnotherButton.tsx",
 									"line": 37,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L37"
+									"character": 4
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 3,
+								"target": 2,
 								"name": "ButtonType",
 								"package": "docusauruspoc"
 							}
@@ -358,47 +295,45 @@
 						{
 							"title": "Properties",
 							"children": [
-								22,
-								27,
-								24,
-								23
+								21,
+								26,
+								23,
+								22
 							]
 						}
 					],
 					"sources": [
 						{
-							"fileName": "Button.tsx",
+							"fileName": "AnotherButton.tsx",
 							"line": 26,
-							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L26"
+							"character": 12
 						}
 					]
 				},
 				{
-					"id": 14,
-					"name": "Level2",
+					"id": 13,
+					"name": "AnotherLevel1",
 					"variant": "declaration",
 					"kind": 2097152,
 					"flags": {},
 					"children": [
 						{
-							"id": 16,
+							"id": 15,
 							"name": "level2",
 							"variant": "declaration",
 							"kind": 1024,
 							"flags": {},
 							"sources": [
 								{
-									"fileName": "Button.tsx",
+									"fileName": "AnotherButton.tsx",
 									"line": 19,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L19"
+									"character": 4
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 11,
-								"name": "Level3",
+								"target": 10,
+								"name": "AnotherLevel2",
 								"package": "docusauruspoc"
 							}
 						}
@@ -407,44 +342,42 @@
 						{
 							"title": "Properties",
 							"children": [
-								16
+								15
 							]
 						}
 					],
 					"sources": [
 						{
-							"fileName": "Button.tsx",
+							"fileName": "AnotherButton.tsx",
 							"line": 18,
-							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L18"
+							"character": 12
 						}
 					]
 				},
 				{
-					"id": 11,
-					"name": "Level3",
+					"id": 10,
+					"name": "AnotherLevel2",
 					"variant": "declaration",
 					"kind": 2097152,
 					"flags": {},
 					"children": [
 						{
-							"id": 13,
+							"id": 12,
 							"name": "level3",
 							"variant": "declaration",
 							"kind": 1024,
 							"flags": {},
 							"sources": [
 								{
-									"fileName": "Button.tsx",
+									"fileName": "AnotherButton.tsx",
 									"line": 15,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L15"
+									"character": 4
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 8,
-								"name": "Level4",
+								"target": 7,
+								"name": "AnotherLevel3",
 								"package": "docusauruspoc"
 							}
 						}
@@ -453,38 +386,36 @@
 						{
 							"title": "Properties",
 							"children": [
-								13
+								12
 							]
 						}
 					],
 					"sources": [
 						{
-							"fileName": "Button.tsx",
+							"fileName": "AnotherButton.tsx",
 							"line": 14,
-							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L14"
+							"character": 12
 						}
 					]
 				},
 				{
-					"id": 8,
-					"name": "Level4",
+					"id": 7,
+					"name": "AnotherLevel3",
 					"variant": "declaration",
 					"kind": 2097152,
 					"flags": {},
 					"children": [
 						{
-							"id": 10,
+							"id": 9,
 							"name": "level4",
 							"variant": "declaration",
 							"kind": 1024,
 							"flags": {},
 							"sources": [
 								{
-									"fileName": "Button.tsx",
+									"fileName": "AnotherButton.tsx",
 									"line": 11,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L11"
+									"character": 4
 								}
 							],
 							"type": {
@@ -497,44 +428,42 @@
 						{
 							"title": "Properties",
 							"children": [
-								10
+								9
 							]
 						}
 					],
 					"sources": [
 						{
-							"fileName": "Button.tsx",
+							"fileName": "AnotherButton.tsx",
 							"line": 10,
-							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L10"
+							"character": 12
 						}
 					]
 				},
 				{
-					"id": 17,
-					"name": "NestedProp",
+					"id": 16,
+					"name": "AnotherNestedProp",
 					"variant": "declaration",
 					"kind": 2097152,
 					"flags": {},
 					"children": [
 						{
-							"id": 19,
+							"id": 18,
 							"name": "level1",
 							"variant": "declaration",
 							"kind": 1024,
 							"flags": {},
 							"sources": [
 								{
-									"fileName": "Button.tsx",
+									"fileName": "AnotherButton.tsx",
 									"line": 23,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L23"
+									"character": 4
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 14,
-								"name": "Level2",
+								"target": 13,
+								"name": "AnotherLevel1",
 								"package": "docusauruspoc"
 							}
 						}
@@ -543,21 +472,20 @@
 						{
 							"title": "Properties",
 							"children": [
-								19
+								18
 							]
 						}
 					],
 					"sources": [
 						{
-							"fileName": "Button.tsx",
+							"fileName": "AnotherButton.tsx",
 							"line": 22,
-							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L22"
+							"character": 12
 						}
 					]
 				},
 				{
-					"id": 41,
+					"id": 78,
 					"name": "default",
 					"variant": "declaration",
 					"kind": 32,
@@ -566,10 +494,9 @@
 					},
 					"sources": [
 						{
-							"fileName": "Button.tsx",
+							"fileName": "AnotherButton.tsx",
 							"line": 49,
-							"character": 6,
-							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L49"
+							"character": 6
 						}
 					],
 					"type": {
@@ -582,8 +509,8 @@
 						"typeArguments": [
 							{
 								"type": "reference",
-								"target": 20,
-								"name": "ButtonProps",
+								"target": 19,
+								"name": "AnotherButtonProps",
 								"package": "docusauruspoc"
 							}
 						],
@@ -597,61 +524,59 @@
 				{
 					"title": "Enumerations",
 					"children": [
-						3
+						2
 					]
 				},
 				{
 					"title": "Type Aliases",
 					"children": [
-						20,
-						14,
-						11,
-						8,
-						17
+						19,
+						13,
+						10,
+						7,
+						16
 					]
 				},
 				{
 					"title": "Variables",
 					"children": [
-						41
+						78
 					]
 				}
 			],
 			"sources": [
 				{
-					"fileName": "Button.tsx",
+					"fileName": "AnotherButton.tsx",
 					"line": 1,
-					"character": 0,
-					"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L1"
+					"character": 0
 				}
 			]
 		},
 		{
-			"id": 28,
-			"name": "Table",
+			"id": 27,
+			"name": "AnotherTable",
 			"variant": "declaration",
 			"kind": 2,
 			"flags": {},
 			"children": [
 				{
-					"id": 29,
-					"name": "TableColumn",
+					"id": 28,
+					"name": "AnotherTableColumn",
 					"variant": "declaration",
 					"kind": 2097152,
 					"flags": {},
 					"children": [
 						{
-							"id": 32,
+							"id": 31,
 							"name": "accessor",
 							"variant": "declaration",
 							"kind": 1024,
 							"flags": {},
 							"sources": [
 								{
-									"fileName": "Table.tsx",
+									"fileName": "AnotherTable.tsx",
 									"line": 5,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L5"
+									"character": 4
 								}
 							],
 							"type": {
@@ -660,17 +585,16 @@
 							}
 						},
 						{
-							"id": 31,
+							"id": 30,
 							"name": "header",
 							"variant": "declaration",
 							"kind": 1024,
 							"flags": {},
 							"sources": [
 								{
-									"fileName": "Table.tsx",
+									"fileName": "AnotherTable.tsx",
 									"line": 4,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L4"
+									"character": 4
 								}
 							],
 							"type": {
@@ -683,63 +607,60 @@
 						{
 							"title": "Properties",
 							"children": [
-								32,
-								31
+								31,
+								30
 							]
 						}
 					],
 					"sources": [
 						{
-							"fileName": "Table.tsx",
+							"fileName": "AnotherTable.tsx",
 							"line": 3,
-							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L3"
+							"character": 12
 						}
 					]
 				},
 				{
-					"id": 33,
-					"name": "TableProps",
+					"id": 32,
+					"name": "AnotherTableProps",
 					"variant": "declaration",
 					"kind": 2097152,
 					"flags": {},
 					"children": [
 						{
-							"id": 35,
+							"id": 34,
 							"name": "columns",
 							"variant": "declaration",
 							"kind": 1024,
 							"flags": {},
 							"sources": [
 								{
-									"fileName": "Table.tsx",
+									"fileName": "AnotherTable.tsx",
 									"line": 9,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L9"
+									"character": 4
 								}
 							],
 							"type": {
 								"type": "array",
 								"elementType": {
 									"type": "reference",
-									"target": 29,
-									"name": "TableColumn",
+									"target": 28,
+									"name": "AnotherTableColumn",
 									"package": "docusauruspoc"
 								}
 							}
 						},
 						{
-							"id": 36,
+							"id": 35,
 							"name": "data",
 							"variant": "declaration",
 							"kind": 1024,
 							"flags": {},
 							"sources": [
 								{
-									"fileName": "Table.tsx",
+									"fileName": "AnotherTable.tsx",
 									"line": 10,
-									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L10"
+									"character": 4
 								}
 							],
 							"type": {
@@ -747,37 +668,35 @@
 								"elementType": {
 									"type": "reflection",
 									"declaration": {
-										"id": 37,
+										"id": 36,
 										"name": "__type",
 										"variant": "declaration",
 										"kind": 65536,
 										"flags": {},
 										"sources": [
 											{
-												"fileName": "Table.tsx",
+												"fileName": "AnotherTable.tsx",
 												"line": 10,
-												"character": 10,
-												"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L10"
+												"character": 10
 											}
 										],
 										"indexSignatures": [
 											{
-												"id": 38,
+												"id": 37,
 												"name": "__index",
 												"variant": "signature",
 												"kind": 8192,
 												"flags": {},
 												"sources": [
 													{
-														"fileName": "Table.tsx",
+														"fileName": "AnotherTable.tsx",
 														"line": 10,
-														"character": 12,
-														"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L10"
+														"character": 12
 													}
 												],
 												"parameters": [
 													{
-														"id": 39,
+														"id": 38,
 														"name": "key",
 														"variant": "param",
 														"kind": 32768,
@@ -810,22 +729,21 @@
 						{
 							"title": "Properties",
 							"children": [
-								35,
-								36
+								34,
+								35
 							]
 						}
 					],
 					"sources": [
 						{
-							"fileName": "Table.tsx",
+							"fileName": "AnotherTable.tsx",
 							"line": 8,
-							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L8"
+							"character": 12
 						}
 					]
 				},
 				{
-					"id": 42,
+					"id": 79,
 					"name": "default",
 					"variant": "declaration",
 					"kind": 32,
@@ -834,10 +752,9 @@
 					},
 					"sources": [
 						{
-							"fileName": "Table.tsx",
+							"fileName": "AnotherTable.tsx",
 							"line": 13,
-							"character": 6,
-							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L13"
+							"character": 6
 						}
 					],
 					"type": {
@@ -850,7 +767,885 @@
 						"typeArguments": [
 							{
 								"type": "reference",
-								"target": 33,
+								"target": 32,
+								"name": "AnotherTableProps",
+								"package": "docusauruspoc"
+							}
+						],
+						"name": "React.FC",
+						"package": "@types/react"
+					},
+					"defaultValue": "..."
+				}
+			],
+			"groups": [
+				{
+					"title": "Type Aliases",
+					"children": [
+						28,
+						32
+					]
+				},
+				{
+					"title": "Variables",
+					"children": [
+						79
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "AnotherTable.tsx",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 39,
+			"name": "App",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 80,
+					"name": "default",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "App.tsx",
+							"line": 4,
+							"character": 6,
+							"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/App.tsx#L4"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"packageName": "@types/react",
+							"packagePath": "index.d.ts",
+							"qualifiedName": "React.FC"
+						},
+						"name": "React.FC",
+						"package": "@types/react"
+					},
+					"defaultValue": "..."
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"children": [
+						80
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "App.tsx",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/App.tsx#L1"
+				}
+			]
+		},
+		{
+			"id": 40,
+			"name": "Button",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 41,
+					"name": "ButtonType",
+					"variant": "declaration",
+					"kind": 8,
+					"flags": {},
+					"children": [
+						{
+							"id": 44,
+							"name": "Danger",
+							"variant": "declaration",
+							"kind": 16,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "Button.tsx",
+									"line": 6,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L6"
+								}
+							],
+							"type": {
+								"type": "literal",
+								"value": "danger"
+							}
+						},
+						{
+							"id": 42,
+							"name": "Primary",
+							"variant": "declaration",
+							"kind": 16,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "Button.tsx",
+									"line": 4,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L4"
+								}
+							],
+							"type": {
+								"type": "literal",
+								"value": "primary"
+							}
+						},
+						{
+							"id": 43,
+							"name": "Secondary",
+							"variant": "declaration",
+							"kind": 16,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "Button.tsx",
+									"line": 5,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L5"
+								}
+							],
+							"type": {
+								"type": "literal",
+								"value": "secondary"
+							}
+						},
+						{
+							"id": 45,
+							"name": "Success",
+							"variant": "declaration",
+							"kind": 16,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "Button.tsx",
+									"line": 7,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L7"
+								}
+							],
+							"type": {
+								"type": "literal",
+								"value": "success"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Enumeration Members",
+							"children": [
+								44,
+								42,
+								43,
+								45
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "Button.tsx",
+							"line": 3,
+							"character": 12,
+							"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L3"
+						}
+					]
+				},
+				{
+					"id": 58,
+					"name": "ButtonProps",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"children": [
+						{
+							"id": 60,
+							"name": "label",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "just some text\nThe label of the button."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@default",
+										"content": [
+											{
+												"kind": "code",
+												"text": "```ts\n'Click me'\n```"
+											}
+										]
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "Button.tsx",
+									"line": 32,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L32"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 65,
+							"name": "nestedProp",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "A nested property with 4 levels of depth."
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "Button.tsx",
+									"line": 46,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L46"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 55,
+								"name": "NestedProp",
+								"package": "docusauruspoc"
+							}
+						},
+						{
+							"id": 62,
+							"name": "onClick",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The click handler for the button."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@default",
+										"content": [
+											{
+												"kind": "code",
+												"text": "```ts\n() => {}\n```"
+											}
+										]
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "Button.tsx",
+									"line": 42,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L42"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 63,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "Button.tsx",
+											"line": 42,
+											"character": 14,
+											"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L42"
+										}
+									],
+									"signatures": [
+										{
+											"id": 64,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 61,
+							"name": "type",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The type of the button."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@default",
+										"content": [
+											{
+												"kind": "code",
+												"text": "```ts\n'secondary'\n```"
+											}
+										]
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "Button.tsx",
+									"line": 37,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L37"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 41,
+								"name": "ButtonType",
+								"package": "docusauruspoc"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								60,
+								65,
+								62,
+								61
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "Button.tsx",
+							"line": 26,
+							"character": 12,
+							"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L26"
+						}
+					]
+				},
+				{
+					"id": 52,
+					"name": "Level2",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"children": [
+						{
+							"id": 54,
+							"name": "level2",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "Button.tsx",
+									"line": 19,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L19"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 49,
+								"name": "Level3",
+								"package": "docusauruspoc"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								54
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "Button.tsx",
+							"line": 18,
+							"character": 12,
+							"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L18"
+						}
+					]
+				},
+				{
+					"id": 49,
+					"name": "Level3",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"children": [
+						{
+							"id": 51,
+							"name": "level3",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "Button.tsx",
+									"line": 15,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L15"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 46,
+								"name": "Level4",
+								"package": "docusauruspoc"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								51
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "Button.tsx",
+							"line": 14,
+							"character": 12,
+							"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L14"
+						}
+					]
+				},
+				{
+					"id": 46,
+					"name": "Level4",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"children": [
+						{
+							"id": 48,
+							"name": "level4",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "Button.tsx",
+									"line": 11,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L11"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								48
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "Button.tsx",
+							"line": 10,
+							"character": 12,
+							"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L10"
+						}
+					]
+				},
+				{
+					"id": 55,
+					"name": "NestedProp",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"children": [
+						{
+							"id": 57,
+							"name": "level1",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "Button.tsx",
+									"line": 23,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L23"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 52,
+								"name": "Level2",
+								"package": "docusauruspoc"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								57
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "Button.tsx",
+							"line": 22,
+							"character": 12,
+							"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L22"
+						}
+					]
+				},
+				{
+					"id": 81,
+					"name": "default",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "Button.tsx",
+							"line": 49,
+							"character": 6,
+							"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L49"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"packageName": "@types/react",
+							"packagePath": "index.d.ts",
+							"qualifiedName": "React.FC"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 58,
+								"name": "ButtonProps",
+								"package": "docusauruspoc"
+							}
+						],
+						"name": "React.FC",
+						"package": "@types/react"
+					},
+					"defaultValue": "..."
+				}
+			],
+			"groups": [
+				{
+					"title": "Enumerations",
+					"children": [
+						41
+					]
+				},
+				{
+					"title": "Type Aliases",
+					"children": [
+						58,
+						52,
+						49,
+						46,
+						55
+					]
+				},
+				{
+					"title": "Variables",
+					"children": [
+						81
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "Button.tsx",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Button.tsx#L1"
+				}
+			]
+		},
+		{
+			"id": 66,
+			"name": "Table",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 67,
+					"name": "TableColumn",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"children": [
+						{
+							"id": 70,
+							"name": "accessor",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "Table.tsx",
+									"line": 5,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Table.tsx#L5"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 69,
+							"name": "header",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "Table.tsx",
+									"line": 4,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Table.tsx#L4"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								70,
+								69
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "Table.tsx",
+							"line": 3,
+							"character": 12,
+							"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Table.tsx#L3"
+						}
+					]
+				},
+				{
+					"id": 71,
+					"name": "TableProps",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"children": [
+						{
+							"id": 73,
+							"name": "columns",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "Table.tsx",
+									"line": 9,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Table.tsx#L9"
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"target": 67,
+									"name": "TableColumn",
+									"package": "docusauruspoc"
+								}
+							}
+						},
+						{
+							"id": 74,
+							"name": "data",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "Table.tsx",
+									"line": 10,
+									"character": 4,
+									"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Table.tsx#L10"
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "reflection",
+									"declaration": {
+										"id": 75,
+										"name": "__type",
+										"variant": "declaration",
+										"kind": 65536,
+										"flags": {},
+										"sources": [
+											{
+												"fileName": "Table.tsx",
+												"line": 10,
+												"character": 10,
+												"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Table.tsx#L10"
+											}
+										],
+										"indexSignatures": [
+											{
+												"id": 76,
+												"name": "__index",
+												"variant": "signature",
+												"kind": 8192,
+												"flags": {},
+												"sources": [
+													{
+														"fileName": "Table.tsx",
+														"line": 10,
+														"character": 12,
+														"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Table.tsx#L10"
+													}
+												],
+												"parameters": [
+													{
+														"id": 77,
+														"name": "key",
+														"variant": "param",
+														"kind": 32768,
+														"flags": {},
+														"type": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													}
+												],
+												"type": {
+													"type": "reference",
+													"target": {
+														"packageName": "@types/react",
+														"packagePath": "index.d.ts",
+														"qualifiedName": "React.ReactNode"
+													},
+													"name": "ReactNode",
+													"package": "@types/react",
+													"qualifiedName": "React.ReactNode"
+												}
+											}
+										]
+									}
+								}
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								73,
+								74
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "Table.tsx",
+							"line": 8,
+							"character": 12,
+							"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Table.tsx#L8"
+						}
+					]
+				},
+				{
+					"id": 82,
+					"name": "default",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "Table.tsx",
+							"line": 13,
+							"character": 6,
+							"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Table.tsx#L13"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"packageName": "@types/react",
+							"packagePath": "index.d.ts",
+							"qualifiedName": "React.FC"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 71,
 								"name": "TableProps",
 								"package": "docusauruspoc"
 							}
@@ -865,14 +1660,14 @@
 				{
 					"title": "Type Aliases",
 					"children": [
-						29,
-						33
+						67,
+						71
 					]
 				},
 				{
 					"title": "Variables",
 					"children": [
-						42
+						82
 					]
 				}
 			],
@@ -881,7 +1676,7 @@
 					"fileName": "Table.tsx",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L1"
+					"url": "https://github.com/samrat41/documentation/blob/0c9386e30b31c87fdb71213b49c66b1cb7534b61/docusauruspoc/src/components/Table.tsx#L1"
 				}
 			]
 		}
@@ -891,8 +1686,10 @@
 			"title": "Modules",
 			"children": [
 				1,
-				2,
-				28
+				27,
+				39,
+				40,
+				66
 			]
 		}
 	],
@@ -900,170 +1697,330 @@
 	"symbolIdMap": {
 		"1": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/App.tsx",
+			"packagePath": "src/components/AnotherButton.tsx",
 			"qualifiedName": ""
 		},
 		"2": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": ""
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "ButtonType"
 		},
 		"3": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "ButtonType"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "ButtonType.Primary"
 		},
 		"4": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "ButtonType.Primary"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "ButtonType.Secondary"
 		},
 		"5": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "ButtonType.Secondary"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "ButtonType.Danger"
 		},
 		"6": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "ButtonType.Danger"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "ButtonType.Success"
 		},
 		"7": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "ButtonType.Success"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "AnotherLevel3"
 		},
-		"8": {
+		"9": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "Level4"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "__type.level4"
 		},
 		"10": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "__type.level4"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "AnotherLevel2"
 		},
-		"11": {
+		"12": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "Level3"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "__type.level3"
 		},
 		"13": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "__type.level3"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "AnotherLevel1"
 		},
-		"14": {
+		"15": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "Level2"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "__type.level2"
 		},
 		"16": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "__type.level2"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "AnotherNestedProp"
 		},
-		"17": {
+		"18": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "NestedProp"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "__type.level1"
 		},
 		"19": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "__type.level1"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "AnotherButtonProps"
 		},
-		"20": {
+		"21": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "ButtonProps"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "__type.label"
 		},
 		"22": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "__type.label"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "__type.type"
 		},
 		"23": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "__type.type"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "__type.onClick"
 		},
 		"24": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "__type.onClick"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "__type"
 		},
 		"25": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
+			"packagePath": "src/components/AnotherButton.tsx",
 			"qualifiedName": "__type"
 		},
 		"26": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "__type"
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "__type.nestedProp"
 		},
 		"27": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "__type.nestedProp"
+			"packagePath": "src/components/AnotherTable.tsx",
+			"qualifiedName": ""
 		},
 		"28": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Table.tsx",
-			"qualifiedName": ""
+			"packagePath": "src/components/AnotherTable.tsx",
+			"qualifiedName": "AnotherTableColumn"
 		},
-		"29": {
+		"30": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Table.tsx",
-			"qualifiedName": "TableColumn"
+			"packagePath": "src/components/AnotherTable.tsx",
+			"qualifiedName": "__type.header"
 		},
 		"31": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Table.tsx",
-			"qualifiedName": "__type.header"
+			"packagePath": "src/components/AnotherTable.tsx",
+			"qualifiedName": "__type.accessor"
 		},
 		"32": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Table.tsx",
-			"qualifiedName": "__type.accessor"
+			"packagePath": "src/components/AnotherTable.tsx",
+			"qualifiedName": "AnotherTableProps"
 		},
-		"33": {
+		"34": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Table.tsx",
-			"qualifiedName": "TableProps"
+			"packagePath": "src/components/AnotherTable.tsx",
+			"qualifiedName": "__type.columns"
 		},
 		"35": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Table.tsx",
-			"qualifiedName": "__type.columns"
+			"packagePath": "src/components/AnotherTable.tsx",
+			"qualifiedName": "__type.data"
 		},
 		"36": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Table.tsx",
-			"qualifiedName": "__type.data"
+			"packagePath": "src/components/AnotherTable.tsx",
+			"qualifiedName": "__type"
 		},
 		"37": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Table.tsx",
-			"qualifiedName": "__type"
-		},
-		"38": {
-			"packageName": "docusauruspoc",
-			"packagePath": "src/components/Table.tsx",
+			"packagePath": "src/components/AnotherTable.tsx",
 			"qualifiedName": "__type.__index"
+		},
+		"39": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/App.tsx",
+			"qualifiedName": ""
 		},
 		"40": {
 			"packageName": "docusauruspoc",
-			"packagePath": "src/components/App.tsx",
-			"qualifiedName": "App"
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": ""
 		},
 		"41": {
 			"packageName": "docusauruspoc",
 			"packagePath": "src/components/Button.tsx",
-			"qualifiedName": "Button"
+			"qualifiedName": "ButtonType"
 		},
 		"42": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "ButtonType.Primary"
+		},
+		"43": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "ButtonType.Secondary"
+		},
+		"44": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "ButtonType.Danger"
+		},
+		"45": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "ButtonType.Success"
+		},
+		"46": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "Level4"
+		},
+		"48": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "__type.level4"
+		},
+		"49": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "Level3"
+		},
+		"51": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "__type.level3"
+		},
+		"52": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "Level2"
+		},
+		"54": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "__type.level2"
+		},
+		"55": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "NestedProp"
+		},
+		"57": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "__type.level1"
+		},
+		"58": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "ButtonProps"
+		},
+		"60": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "__type.label"
+		},
+		"61": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "__type.type"
+		},
+		"62": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "__type.onClick"
+		},
+		"63": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "__type"
+		},
+		"64": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "__type"
+		},
+		"65": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "__type.nestedProp"
+		},
+		"66": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Table.tsx",
+			"qualifiedName": ""
+		},
+		"67": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Table.tsx",
+			"qualifiedName": "TableColumn"
+		},
+		"69": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Table.tsx",
+			"qualifiedName": "__type.header"
+		},
+		"70": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Table.tsx",
+			"qualifiedName": "__type.accessor"
+		},
+		"71": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Table.tsx",
+			"qualifiedName": "TableProps"
+		},
+		"73": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Table.tsx",
+			"qualifiedName": "__type.columns"
+		},
+		"74": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Table.tsx",
+			"qualifiedName": "__type.data"
+		},
+		"75": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Table.tsx",
+			"qualifiedName": "__type"
+		},
+		"76": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Table.tsx",
+			"qualifiedName": "__type.__index"
+		},
+		"78": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/AnotherButton.tsx",
+			"qualifiedName": "AnotherButton"
+		},
+		"79": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/AnotherTable.tsx",
+			"qualifiedName": "AnotherTable"
+		},
+		"80": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/App.tsx",
+			"qualifiedName": "App"
+		},
+		"81": {
+			"packageName": "docusauruspoc",
+			"packagePath": "src/components/Button.tsx",
+			"qualifiedName": "Button"
+		},
+		"82": {
 			"packageName": "docusauruspoc",
 			"packagePath": "src/components/Table.tsx",
 			"qualifiedName": "Table"
@@ -1071,14 +2028,18 @@
 	},
 	"files": {
 		"entries": {
-			"1": "src/components/App.tsx",
-			"2": "src/components/Button.tsx",
-			"3": "src/components/Table.tsx"
+			"1": "src/components/AnotherButton.tsx",
+			"2": "src/components/AnotherTable.tsx",
+			"3": "src/components/App.tsx",
+			"4": "src/components/Button.tsx",
+			"5": "src/components/Table.tsx"
 		},
 		"reflections": {
 			"1": 1,
-			"2": 2,
-			"3": 28
+			"2": 27,
+			"3": 39,
+			"4": 40,
+			"5": 66
 		}
 	}
 }

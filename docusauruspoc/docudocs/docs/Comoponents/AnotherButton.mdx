@@ -1,0 +1,17 @@
+---
+title: AnotherButton Props
+---
+
+# AnotherButton Props
+
+| Prop | Type | Default | Required | Description |
+|:-----|:-----|:--------|:---------|:------------|
+| label | string | `'Click me'` | Yes | just some text The label of the button. |
+| <i>nestedProp</i> | AnotherNestedProp | - | No | A nested property with 4 levels of depth. |
+| <span style={{marginLeft: "20px", fontSize: "90%", color: "#666"}}>level1</span> | AnotherLevel1 | - | Yes |  |
+| <span style={{marginLeft: "40px", fontSize: "90%", color: "#666"}}>level2</span> | AnotherLevel2 | - | Yes |  |
+| <span style={{marginLeft: "60px", fontSize: "90%", color: "#666"}}>level3</span> | AnotherLevel3 | - | Yes |  |
+| <span style={{marginLeft: "80px", fontSize: "90%", color: "#666"}}>level4</span> | string | - | Yes |  |
+| <i>onClick</i> | object | `() => {}` | No | The click handler for the button. |
+| type | One of ["danger", "primary", "secondary", "success"] | `'secondary'` | Yes | The type of the button. |
+
