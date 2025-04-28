@@ -26,7 +26,7 @@
 							"fileName": "App.tsx",
 							"line": 4,
 							"character": 6,
-							"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/App.tsx#L4"
+							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/App.tsx#L4"
 						}
 					],
 					"type": {
@@ -55,7 +55,7 @@
 					"fileName": "App.tsx",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/App.tsx#L1"
+					"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/App.tsx#L1"
 				}
 			]
 		},
@@ -84,7 +84,7 @@
 									"fileName": "Button.tsx",
 									"line": 6,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L6"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L6"
 								}
 							],
 							"type": {
@@ -103,7 +103,7 @@
 									"fileName": "Button.tsx",
 									"line": 4,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L4"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L4"
 								}
 							],
 							"type": {
@@ -122,7 +122,7 @@
 									"fileName": "Button.tsx",
 									"line": 5,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L5"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L5"
 								}
 							],
 							"type": {
@@ -141,7 +141,7 @@
 									"fileName": "Button.tsx",
 									"line": 7,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L7"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L7"
 								}
 							],
 							"type": {
@@ -166,7 +166,7 @@
 							"fileName": "Button.tsx",
 							"line": 3,
 							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L3"
+							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L3"
 						}
 					]
 				},
@@ -207,7 +207,7 @@
 									"fileName": "Button.tsx",
 									"line": 32,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L32"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L32"
 								}
 							],
 							"type": {
@@ -236,7 +236,7 @@
 									"fileName": "Button.tsx",
 									"line": 46,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L46"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L46"
 								}
 							],
 							"type": {
@@ -251,7 +251,9 @@
 							"name": "onClick",
 							"variant": "declaration",
 							"kind": 1024,
-							"flags": {},
+							"flags": {
+								"isOptional": true
+							},
 							"comment": {
 								"summary": [
 									{
@@ -276,7 +278,7 @@
 									"fileName": "Button.tsx",
 									"line": 42,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L42"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L42"
 								}
 							],
 							"type": {
@@ -291,8 +293,8 @@
 										{
 											"fileName": "Button.tsx",
 											"line": 42,
-											"character": 13,
-											"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L42"
+											"character": 14,
+											"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L42"
 										}
 									],
 									"signatures": [
@@ -330,7 +332,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nButtonType.Secondary\n```"
+												"text": "```ts\n'secondary'\n```"
 											}
 										]
 									}
@@ -341,7 +343,7 @@
 									"fileName": "Button.tsx",
 									"line": 37,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L37"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L37"
 								}
 							],
 							"type": {
@@ -368,7 +370,7 @@
 							"fileName": "Button.tsx",
 							"line": 26,
 							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L26"
+							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L26"
 						}
 					]
 				},
@@ -390,7 +392,7 @@
 									"fileName": "Button.tsx",
 									"line": 19,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L19"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L19"
 								}
 							],
 							"type": {
@@ -414,7 +416,7 @@
 							"fileName": "Button.tsx",
 							"line": 18,
 							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L18"
+							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L18"
 						}
 					]
 				},
@@ -436,7 +438,7 @@
 									"fileName": "Button.tsx",
 									"line": 15,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L15"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L15"
 								}
 							],
 							"type": {
@@ -460,7 +462,7 @@
 							"fileName": "Button.tsx",
 							"line": 14,
 							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L14"
+							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L14"
 						}
 					]
 				},
@@ -482,7 +484,7 @@
 									"fileName": "Button.tsx",
 									"line": 11,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L11"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L11"
 								}
 							],
 							"type": {
@@ -504,7 +506,7 @@
 							"fileName": "Button.tsx",
 							"line": 10,
 							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L10"
+							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L10"
 						}
 					]
 				},
@@ -526,7 +528,7 @@
 									"fileName": "Button.tsx",
 									"line": 23,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L23"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L23"
 								}
 							],
 							"type": {
@@ -550,7 +552,7 @@
 							"fileName": "Button.tsx",
 							"line": 22,
 							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L22"
+							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L22"
 						}
 					]
 				},
@@ -567,7 +569,7 @@
 							"fileName": "Button.tsx",
 							"line": 49,
 							"character": 6,
-							"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L49"
+							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L49"
 						}
 					],
 					"type": {
@@ -620,7 +622,7 @@
 					"fileName": "Button.tsx",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Button.tsx#L1"
+					"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Button.tsx#L1"
 				}
 			]
 		},
@@ -649,7 +651,7 @@
 									"fileName": "Table.tsx",
 									"line": 5,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Table.tsx#L5"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L5"
 								}
 							],
 							"type": {
@@ -668,7 +670,7 @@
 									"fileName": "Table.tsx",
 									"line": 4,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Table.tsx#L4"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L4"
 								}
 							],
 							"type": {
@@ -691,7 +693,7 @@
 							"fileName": "Table.tsx",
 							"line": 3,
 							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Table.tsx#L3"
+							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L3"
 						}
 					]
 				},
@@ -713,7 +715,7 @@
 									"fileName": "Table.tsx",
 									"line": 9,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Table.tsx#L9"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L9"
 								}
 							],
 							"type": {
@@ -737,7 +739,7 @@
 									"fileName": "Table.tsx",
 									"line": 10,
 									"character": 4,
-									"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Table.tsx#L10"
+									"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L10"
 								}
 							],
 							"type": {
@@ -755,7 +757,7 @@
 												"fileName": "Table.tsx",
 												"line": 10,
 												"character": 10,
-												"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Table.tsx#L10"
+												"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L10"
 											}
 										],
 										"indexSignatures": [
@@ -770,7 +772,7 @@
 														"fileName": "Table.tsx",
 														"line": 10,
 														"character": 12,
-														"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Table.tsx#L10"
+														"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L10"
 													}
 												],
 												"parameters": [
@@ -818,7 +820,7 @@
 							"fileName": "Table.tsx",
 							"line": 8,
 							"character": 12,
-							"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Table.tsx#L8"
+							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L8"
 						}
 					]
 				},
@@ -835,7 +837,7 @@
 							"fileName": "Table.tsx",
 							"line": 13,
 							"character": 6,
-							"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Table.tsx#L13"
+							"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L13"
 						}
 					],
 					"type": {
@@ -879,7 +881,7 @@
 					"fileName": "Table.tsx",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/samrat41/documentation/blob/ea65f5e5666553d8295bc5c07654c1e022f14fab/docusauruspoc/src/components/Table.tsx#L1"
+					"url": "https://github.com/samrat41/documentation/blob/45cc682130bc395dd161f6da495da0160ac1c967/docusauruspoc/src/components/Table.tsx#L1"
 				}
 			]
 		}

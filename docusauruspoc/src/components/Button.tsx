@@ -32,14 +32,14 @@ export type ButtonProps = {
     label: string;
     /**
      * The type of the button.
-     * @default ButtonType.Secondary
+     * @default 'secondary'
      */
     type: ButtonType; // Mandatory type
     /**
      * The click handler for the button.
      * @default () => {}
      */
-    onClick: () => void;
+    onClick?: () => void;
     /**
      * A nested property with 4 levels of depth.
      */

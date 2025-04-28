@@ -217,14 +217,14 @@ function resolveEnum(enumObject) {
   if (!enumObject || !enumObject.children) return '';
 
   // Map each member to its literal value or name
-  return enumObject.children
+  return `One of [${enumObject.children
     .map(member => {
       if (member.type && member.type.type === "literal" && member.type.value !== undefined) {
-        return `"${member.name}"`;
+        return `"${member.type.value}"`; // Use the literal value
       }
       return `"${member.name}"`; // Fallback to the name if no literal value
     })
-    .join(' , ');
+    .join(', ')}]`;
 }
 
 function generateMdxForComponent(componentName) {
