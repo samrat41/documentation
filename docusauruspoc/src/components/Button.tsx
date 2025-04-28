@@ -25,7 +25,9 @@ export type NestedProp = {
 
 export type ButtonProps = {
     /**
+     * just some text
      * The label of the button.
+     * @default 'Click me'
      */
     label: string;
     /**

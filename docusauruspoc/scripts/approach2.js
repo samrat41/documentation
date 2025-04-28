@@ -3,7 +3,7 @@ const path = require('path');
 
 // Configs
 const TYPEDOC_JSON_PATH = '../docs/typedoc.json';
-const OUTPUT_DIR = path.resolve(__dirname, '../docs/generated-props');
+const OUTPUT_DIR = path.resolve(__dirname, '../docudocs/docs/comoponents');
 
 // Load Typedoc JSON
 console.log('Loading Typedoc JSON...');
@@ -97,7 +97,16 @@ function getDefaultValue(prop) {
   }
   return ''; // Fallback to no default value
 }
-
+function getDescription(prop) {
+  if (prop.comment?.summary) {
+    // Combine all text entries in the summary array into a single string and replace \n with space
+    return prop.comment.summary
+      .map((entry) => entry.text.replace(/\n/g, ' ')) // Replace \n with space
+      .join(' ')
+      .trim();
+  }
+  return ''; // Fallback if no description is found
+}
 function extractProps(typeNode, level = 0) {
   if (!typeNode || !typeNode.children) return '';
 
@@ -106,7 +115,7 @@ function extractProps(typeNode, level = 0) {
   for (const prop of typeNode.children) {
     const typeText = resolveType(prop.type);
     const required = prop.flags?.isOptional ? 'No' : 'Yes';
-    const description = (prop.comment?.shortText || '').replace(/\n/g, ' ').trim();
+    const description = getDescription(prop);
     const defaultValue = getDefaultValue(prop);
 
     // Define propName and handle indentation or styling for nested props

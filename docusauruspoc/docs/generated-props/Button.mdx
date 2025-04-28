@@ -6,14 +6,14 @@ title: Button Props
 
 | Prop | Type | Default | Required | Description |
 |:-----|:-----|:--------|:---------|:------------|
-| label | string | - | Yes |  |
-| <i>nestedProp</i> | NestedProp | - | No |  |
+| label | string | `'Click me'` | Yes | just some text The label of the button. |
+| <i>nestedProp</i> | NestedProp | - | No | A nested property with 4 levels of depth. |
 | <span style={{marginLeft: "20px", fontSize: "90%", color: "#666"}}>level1</span> | Level2 | - | Yes |  |
 | <span style={{marginLeft: "40px", fontSize: "90%", color: "#666"}}>level2</span> | Level3 | - | Yes |  |
 | <span style={{marginLeft: "60px", fontSize: "90%", color: "#666"}}>level3</span> | Level4 | - | Yes |  |
 | <span style={{marginLeft: "80px", fontSize: "90%", color: "#666"}}>level4</span> | string | - | Yes |  |
-| onClick | object | `() => {}` | Yes |  |
-| type | "Danger" , "Primary" , "Secondary" , "Success" | `ButtonType.Secondary` | Yes |  |
+| onClick | object | `() => {}` | Yes | The click handler for the button. |
+| type | "Danger" , "Primary" , "Secondary" , "Success" | `ButtonType.Secondary` | Yes | The type of the button. |
 | <span style={{marginLeft: "20px", fontSize: "90%", color: "#666"}}>Danger</span> | unknown | - | Yes |  |
 | <span style={{marginLeft: "20px", fontSize: "90%", color: "#666"}}>Primary</span> | unknown | - | Yes |  |
 | <span style={{marginLeft: "20px", fontSize: "90%", color: "#666"}}>Secondary</span> | unknown | - | Yes |  |
